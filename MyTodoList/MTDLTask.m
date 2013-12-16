@@ -10,4 +10,17 @@
 
 @implementation MTDLTask
 
+-(instancetype)initWithName: (NSString *) name_
+{
+
+    self = [super init];
+    
+    if(self){
+        self.name = name_;
+    }
+    
+    return self;
+    
+}
+
 @end

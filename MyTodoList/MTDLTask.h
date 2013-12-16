@@ -13,6 +13,6 @@
 @property (nonatomic) NSString *name;
 @property (nonatomic, getter=isDone) BOOL done;
 
-@property NSString * teste;
+-(instancetype)initWithName: (NSString *) name_;
 
 @end
