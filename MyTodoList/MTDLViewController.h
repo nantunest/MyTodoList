@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MTDLViewController : UIViewController
+@interface MTDLViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @end

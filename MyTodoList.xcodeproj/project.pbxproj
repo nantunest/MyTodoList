@@ -22,6 +22,8 @@
 		69123F81185F73D80081579A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69123F7F185F73D80081579A /* InfoPlist.strings */; };
 		69123F83185F73D80081579A /* MyTodoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69123F82185F73D80081579A /* MyTodoListTests.m */; };
 		69123F8E185F76040081579A /* MTDLTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 69123F8D185F76040081579A /* MTDLTask.m */; };
+		69AB49511860CC7D00516D18 /* not_done.png in Resources */ = {isa = PBXBuildFile; fileRef = 69AB49501860CC7D00516D18 /* not_done.png */; };
+		69AB49531860CC8400516D18 /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = 69AB49521860CC8400516D18 /* done.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		69123F82185F73D80081579A /* MyTodoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTodoListTests.m; sourceTree = "<group>"; };
 		69123F8C185F76040081579A /* MTDLTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDLTask.h; sourceTree = "<group>"; };
 		69123F8D185F76040081579A /* MTDLTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDLTask.m; sourceTree = "<group>"; };
+		69AB49501860CC7D00516D18 /* not_done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = not_done.png; path = ../../../Downloads/not_done.png; sourceTree = "<group>"; };
+		69AB49521860CC8400516D18 /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = done.png; path = ../../../Downloads/done.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 		69123F5E185F73D80081579A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				69AB49521860CC8400516D18 /* done.png */,
+				69AB49501860CC7D00516D18 /* not_done.png */,
 				69123F5F185F73D80081579A /* MyTodoList-Info.plist */,
 				69123F60185F73D80081579A /* InfoPlist.strings */,
 				69123F63185F73D80081579A /* main.m */,
@@ -235,6 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				69123F70185F73D80081579A /* Images.xcassets in Resources */,
+				69AB49531860CC8400516D18 /* done.png in Resources */,
+				69AB49511860CC7D00516D18 /* not_done.png in Resources */,
 				69123F62185F73D80081579A /* InfoPlist.strings in Resources */,
 				69123F6B185F73D80081579A /* Main.storyboard in Resources */,
 			);
@@ -467,6 +475,7 @@
 				69123F88185F73D80081579A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69123F89185F73D80081579A /* Build configuration list for PBXNativeTarget "MyTodoListTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +484,7 @@
 				69123F8B185F73D80081579A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
