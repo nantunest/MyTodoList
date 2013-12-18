@@ -44,6 +44,10 @@
         self.addTaskField.hidden = NO;
         self.okButton.hidden = NO;
         [sender setTitle:@"-" forState:UIControlStateNormal];
+        
+        [self.taskListView setFrame:CGRectMake(30, 118, 250, 435)];
+
+        
         NSLog(@"set to -");
 
     } else {
@@ -51,12 +55,22 @@
         self.addTaskField.hidden = YES;
         self.okButton.hidden = YES;
         [sender setTitle:@"+" forState:UIControlStateNormal];
+        [self.taskListView setFrame:CGRectMake(30, 53, 250, 435)];
+        
+        
+        
         NSLog(@"set to +");
         [self.addTaskField resignFirstResponder];
 
     }
     
     NSLog(@"pass");
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    [self.taskListView setFrame:CGRectMake(30, 53, 250, 455)];
+
+
 }
 
 - (void)viewDidLoad
@@ -68,6 +82,7 @@
     taskList = [[NSMutableArray alloc] init];
     self.addTaskField.hidden = YES;
     self.okButton.hidden = YES;
+
     
     NSLog(@"did load");
 
