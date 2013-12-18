@@ -48,7 +48,7 @@
         [self.taskListView setFrame:CGRectMake(30, 118, 250, 435)];
 
         
-        NSLog(@"set to -");
+   //     NSLog(@"set to -");
 
     } else {
         addingMode = NO;
@@ -59,12 +59,12 @@
         
         
         
-        NSLog(@"set to +");
+    //    NSLog(@"set to +");
         [self.addTaskField resignFirstResponder];
 
     }
     
-    NSLog(@"pass");
+ //   NSLog(@"pass");
 }
 
 - (void)viewDidAppear:(BOOL)animated{
@@ -84,7 +84,7 @@
     self.okButton.hidden = YES;
 
     
-    NSLog(@"did load");
+  //  NSLog(@"did load");
 
 }
 
@@ -158,7 +158,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"selected");
+   // NSLog(@"selected");
     
     MTDLTask *task = [taskList objectAtIndex:[indexPath row]];
     

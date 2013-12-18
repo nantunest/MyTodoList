@@ -24,6 +24,7 @@
 		69123F8E185F76040081579A /* MTDLTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 69123F8D185F76040081579A /* MTDLTask.m */; };
 		69AB49571860D0D100516D18 /* not_done.png in Resources */ = {isa = PBXBuildFile; fileRef = 69AB49561860D0D100516D18 /* not_done.png */; };
 		69AB49591860D10500516D18 /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = 69AB49581860D10500516D18 /* done.png */; };
+		CF9884191862006500C4A93C /* checked_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9884181862006500C4A93C /* checked_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		69123F8D185F76040081579A /* MTDLTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDLTask.m; sourceTree = "<group>"; };
 		69AB49561860D0D100516D18 /* not_done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = not_done.png; sourceTree = "<group>"; };
 		69AB49581860D10500516D18 /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done.png; sourceTree = "<group>"; };
+		CF9884181862006500C4A93C /* checked_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		69123F5E185F73D80081579A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CF9884181862006500C4A93C /* checked_icon.png */,
 				69123F5F185F73D80081579A /* MyTodoList-Info.plist */,
 				69AB49581860D10500516D18 /* done.png */,
 				69AB49561860D0D100516D18 /* not_done.png */,
@@ -242,6 +245,7 @@
 			files = (
 				69123F70185F73D80081579A /* Images.xcassets in Resources */,
 				69AB49591860D10500516D18 /* done.png in Resources */,
+				CF9884191862006500C4A93C /* checked_icon.png in Resources */,
 				69123F62185F73D80081579A /* InfoPlist.strings in Resources */,
 				69123F6B185F73D80081579A /* Main.storyboard in Resources */,
 				69AB49571860D0D100516D18 /* not_done.png in Resources */,
